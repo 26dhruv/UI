@@ -1,42 +1,47 @@
-"<!DOCTYPE html>/
-<html lang="en">/
-<head>/
-    <meta charset="UTF-8">/
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">/
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">/
-    <title>Document</title>/
-</head>/
-<body>/
-    <div class="-controls">/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car ui</title>
+    <link rel="stylesheet" href="car.css">
+</head>
+<body>
+    <div class="-controls">
         
-        <button id="b1" onfocus="up()" onblur="x()">UP</button>/
-        <button id="b2" onfocus="down()" onblur="x()" >BACK</button>/
-        <button id="b3" onfocus="left()" onblur="x()">LEFT</button>/
-        <button id="b4" onfocus="right()" onblur="x()">RIGHT</button>/
-    </div>/
-    <iframe src="x.html" name="rame"frameborder="1"></iframe>/
-    <p><a href  ="hhtp://192.168.0.1" target="rame">abc</a></p>/
-  <script>/
-  function up(){/
-    window.location.href="/up"/
+        <button id="b1" onfocus="up()" onblur="x()">UP</button>
+        <button id="b2" onfocus="down()" onblur="x()" >BACK</button>
+        <button id="b3" onfocus="left()" onblur="x()">LEFT</button>
+        <button id="b4" onfocus="right()" onblur="x()">RIGHT</button>
+    </div>
     
-    }/
-    function down(){/
-    window.location.href="/back"/
+  <script>
+  function up(){
+    window.location.href="/up"
+  
+    }
+    function down(){
+    window.location.href="/back"
     
-    }/
- function left(){/
-    window.location.href="/left"/
+    }
+ function left(){
+    window.location.href="/left"
     
-    }/
-     function right(){/
-    window.location.href="/right"/
+    }
+     function right(){
+    window.location.href="/right"
     
-    }/
-    function x(){/
-    window.location.href="/null"/
-    
-    }/
-  </script>/
-</body>/
-</html>"
+    }
+    function x(){
+      window.location.href="/null"
+      
+    }
+    </script>
+    <style>
+      .button{
+        background-color: yellow;
+      }
+    </style>
+</body>
+</html>
