@@ -104,3 +104,31 @@ body {
 .blur-section #signinbtn:hover {
     transform: translate(1px, -1px);
 }
+
+.blur-section #person,
+#lock,
+#unlock {
+    list-style: none;
+
+}
+
+#person {
+    position: relative;
+    left: 508px;
+    bottom: 240px;
+}
+
+#lock {
+    position: absolute;
+    left: 508px;
+    bottom: 236px;
+    cursor: pointer;
+}
+
+#unlock {
+    position: absolute;
+    left: 508px;
+    bottom: 236px;
+    cursor: pointer;
+    opacity: 0%;
+}
