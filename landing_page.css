@@ -47,3 +47,17 @@ body {
     color: black;
     cursor: pointer;
 }
+
+.img-bx {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 1295px;
+    bottom: 66px;
+    border-radius: 50px;
+    background-image: url("https://source.unsplash.com/collection/190727/50*50");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
