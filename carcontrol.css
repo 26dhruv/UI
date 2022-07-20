@@ -8,7 +8,7 @@ body {
     background-image: url("figma/boris-stefanik-wxJscL5ZzDA-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(2px);
 }
 
 .blur-area {

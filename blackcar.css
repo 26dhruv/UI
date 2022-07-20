@@ -5,21 +5,22 @@
 }
 
 body {
-    background-image: url("figma/shubham-dhage-v4wkJKlcb_M-unsplash\ 1.png");
+    background-image: url("figma/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    backdrop-filter: blur(10px);
 }
 
 .blur-section {
-    position: relative;
+    position: absolute;
     width: 584px;
     height: 672px;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0px 0px 24px rgb(0 0 0 / 45%);
-    backdrop-filter: blur(40px);
-    border-radius: 20px;
-    left: 66px;
-    top: 32px;
+    backdrop-filter: blur(20px);
+    border-radius: 33px;
+    left: 444px;
+    top: 30px;
 }
 
 .blur-section h1 {
