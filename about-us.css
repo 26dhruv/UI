@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bg{
+width: 1914.05px;
+height: 980px;
+
+background: #1A191A;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.circle-rad {
+position: absolute;
+width: 366px;
+height: 365px;
+left: 100px;
+top: 100px;
+
+background: linear-gradient(180deg, rgba(255, 122, 0, 0) 15%, #FF5858 100%);
+filter: blur(200px);
+}
+
+.quote-text{
+position: absolute;
+width: 814px;
+height: 388px;
+left: 325px;
+top: 112px;
+    
+/* h1 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 114px;
+
+color: #FFFFFF;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.nav-bar a {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 100px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 81px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
+}
+
+#btn-login {
+    position: absolute;
+    right: 100px;
+    top: 25px;
+    width: 104px;
+    height: 34px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 81px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: black;
+    cursor: pointer;
+}
+.insta{
+    position: absolute;
+    left: 29.72%;
+    right: 85.13%;
+    top: 70.2%;
+    bottom: 16.16%;
+    
+    color: #FFFFFF;
+}
+.github{
+position: absolute;
+left: 25.72%;
+right: 85.13%;
+top: 70.2%;
+bottom: 16.16%;
+
+color: #FFFFFF;
+}
+.twitter{
+position: absolute;
+left: 21.72%;
+right: 85.13%;
+top: 70.2%;
+bottom: 16.16%;
+
+color: #FFFFFF;
+}
+.desc-head{
+    position: absolute;
+width: 441px;
+height: 85px;
+left: 325px;
+top: 700px;
+
+/* h2 */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 85px;
+
+color: #FFFFFF;
+}
+.desc-txt{
+position: absolute;
+width: 921px;
+height: 81px;
+left: 325px;
+top: 800px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* or 150% */
+
+text-indent: 2px;
+font-feature-settings: 'liga' off;
+
+color: #FFFFFF;
+    
+}
