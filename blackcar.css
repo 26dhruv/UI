@@ -5,10 +5,10 @@
 }
 
 body {
-    background-image: url("figma/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers.jpg");
+    background-image: url("figma/abstract-3d-cube-background-hd-wallpaper-1920x1200.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(3px); */
 }
 
 .blur-section {
