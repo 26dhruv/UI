@@ -60,7 +60,6 @@ nav {
     position: fixed;
     left: 39px;
     bottom: 19px;
-    border-radius: 40px;
 }
 
 .side-bar {
@@ -84,35 +83,46 @@ nav {
     position: absolute;
     top: 24px;
     left: 26px;
+    padding: 0px;
+    margin: 0px;
 }
 
-#arrow-up {
-    position: absolute;
-    top: 20px;
-    left: 88px;
+button {
+    background: #222224;
+    background: none;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
-#arrow-down {
+#UP {
     position: absolute;
-    top: 157px;
+    top: 15px;
     left: 90px;
 }
 
-
-#arrow-left {
+#DOWN {
     position: absolute;
-    top: 90px;
-    right: 155px;
+    bottom: 15px;
+    left: 90px;
 }
 
-#arrow-right {
+#LEFT {
     position: absolute;
     top: 90px;
-    right: 23px;
+    left: 15px;
 }
 
-#stop {
+#RIGHT {
     position: absolute;
-    top: 89px;
-    left: 89px;
+    top: 90px;
+    right: 15px;
+}
+
+#STOP {
+    position: absolute;
+    top: 90px;
+    left: 90px;
 }
